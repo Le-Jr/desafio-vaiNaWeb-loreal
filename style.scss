@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$background:#EFEEF3 ;
+$font-all: "Kodchasan", sans-serif;
+$header-bg-image: url('./img/banner.png');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background;
+    font-family: $font-all;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-img{
+    background-image: $header-bg-image;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+
+    @media(max-width:500px){
+        display: none;
+    }
+}
+
+header{
+    height: 18.5vw;
+    
+    @media (max-width:500px) {
+        height: 100vw;
+    }
+
+    img.logo{
+        width: 150px;
+        height: 50px;
+
+        @media (max-width:500px) {
+            height: 10vh;
+            width: 50vw;
+            padding: .5em;
+        }
+
+    }
+
+
+    #navbar{
+
+        @media (max-width:500px) {
+            flex-direction: column;
+        }
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5em 1em;
+        //border: solid red;
+
+        ul{
+            padding: 0 1em;
+            //border: solid ;
+            display: flex;
+            list-style: none;
+            width: 80vw;
+            justify-content: space-between;
+            font-weight: 400;
+            font-size: 24px;
+            
+            @media (max-width:500px) {
+                padding: .5em ;
+                text-align: center;
+                height: 45vh;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+            }
+    
+        }
+    }
+}
+
+main{
+    height: 100vh;
+    //border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    section.card-1{
+        width: 100%;
+        //border: solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            border: solid;
+            max-width: 450px;
+            max-height: 350px;
+            margin-right: 15vw ;
+        }
+
+        .text-main{
+            font-weight: 400;
+            font-size: 19px;
+            padding: 1em .5em;
+            line-height: 30px;
+            height: 32vh;
+            max-width: 28vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: solid red;
+            align-items: center;
+            text-align: center;
+
+            h1{
+                font-weight: 400;
+                font-size: 36px;
+            }
+
+            p{
+                padding: 1em;
+                max-width: 26vw;
+            }
+        }
+    }
+
+    section.card-2{
+        width: 100%;
+        border: solid green;
+        display: flex;
+        //justify-content: center;
+        align-items: center;
+
+        img{
+            width: 80px;
+            height: 200px;
+        }
+
+        h2{
+            border: solid yellow;
+            font-weight: 400;
+            max-width: 25vw;
+            margin-right: 9vw;
+            margin-left: 15vw;
+        }
+
+        .shampoo{
+            min-width: 45vw;
+            display: flex;
+            justify-content: space-evenly;
+            border: solid red;
+        }
+    }
+}
