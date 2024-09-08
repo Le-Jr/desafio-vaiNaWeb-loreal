@@ -130,7 +130,7 @@ main{
     section.card-1{
 
         width: 100%;
-        border: solid green;
+        //border: solid green;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -144,7 +144,7 @@ main{
 
 
         img{
-            border: solid;
+            //border: solid;
             max-width: 450px;
             max-height: 350px;
             margin-right: 15vw ;
@@ -167,7 +167,7 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            border: solid red;
+            //border: solid red;
             align-items: center;
             text-align: center;
 
@@ -207,7 +207,7 @@ main{
 
         section.card-2{
             width: 100%;
-            border: solid green;
+            //border: solid green;
             display: flex;
             //justify-content: center;
             align-items: center;
@@ -231,7 +231,7 @@ main{
             }
     
             h2{
-                border: solid yellow;
+                //border: solid yellow;
                 font-weight: 400;
                 max-width: 25vw;
                 margin-right: 9vw;
@@ -250,16 +250,13 @@ main{
                 min-width: 45vw;
                 display: flex;
                 justify-content: space-evenly;
-                border: solid red;
+                //border: solid red;
 
                 @media (max-width: 500px) {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     grid-template-rows: 1fr 1fr;
-                    // align-items: center;
-                    // justify-content: space-around;
-                    // flex-wrap: wrap 1;
-                    // flex-direction: column;
+                    justify-items: center;
                     min-height: 15vh;
                     min-width: 70vw;
                     
