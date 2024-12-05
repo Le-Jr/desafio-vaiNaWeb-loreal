@@ -7,6 +7,7 @@ O desafio consistia em reproduzir as interfaces deste **<a href="https://www.fig
 
 Procurando seguir a semântica no código Html e estilizar da forma mais otimizada possível com Sass.
 Além de treinar a responsividade.
+
 <img src="./img/print-pag-res.png" alt="Exemplo imagem" width="300" height="550">
 
 ## 🚀 Começando
