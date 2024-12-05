@@ -27,9 +27,9 @@ git clone https://github.com/Le-Jr/desafio-vaiNaWeb-loreal.git
 cd desafio-vaiNaWeb-loreal
 ```
 
-### 2 Instale as dependências
+### 2 Editando o projeto
 
-Abra o projeto no seu editor de código e edite o proejeto a sua maneira
+Abra o projeto no seu editor de código e edite o projeto a sua maneira
 
 ## 🛠️ Construído com
 
